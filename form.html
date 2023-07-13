@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <section>
+        <h2>Please fill up the form.</h2>
+        <form>
+          <label for="name"
+            >Your Name:
+            <input class="name" input="text" placeholder=" Full Name " />
+          </label>
+
+          <label for="mail">
+            Your E-mail:
+            <input class="mail" input="mail" placeholder="Your mail" />
+          </label>
+          <label for="number">
+            Your Number:
+            <input
+              class="number"
+              placeholder="Your Phone Number"
+              type="number"
+            />
+          </label>
+
+          <fieldset>
+            <legend>Pick one</legend>
+            <label for="chocolate">
+              <input type="radio" name="snacks" />chocolate
+            </label>
+            <label for="icecream">
+              <input type="radio" name="snacks" id="icecream" />icecream
+            </label>
+            <label for="pastry">
+              <input type="radio" name="snacks" id="pastry" />pastry
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+                Pick one or more vorta
+            
+            </legend>
+             
+            <label type="checkbox" 
+            > <input type="checkbox" for="shutki" name="vorta"
+            id="shutki">
+                shutki vorta
+            </label>
+
+            <label type="checkbox" 
+            > <input type="checkbox" for="alu" name="vorta"
+            id="shutki">
+               alur vorta
+            </label>
+
+            <label type="checkbox" 
+            > <input type="checkbox" for="dim" name="vorta"
+            id="shutki">
+                dim vorta
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="Instruction" id="" cols="30" rows="5"></textarea>
+          </fieldset>
+          <input type="reset" value="reset">
+          <input type="submit" Value="submit">
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
